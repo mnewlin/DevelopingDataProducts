@@ -1,0 +1,45 @@
+## Houston Crimes Reported in December 2014
+###Application online user documentation
+
+Welcome to my application displaying crime report data for Houston, Texas for crimes reported to Houston authorities during the month of December 2014.
+
+The source data for this application can be found at: http://www.houstontx.gov/police/cs/stats2.htm
+
+###Navigation Tabs
+#####This site consists of two tabs that can be selected by the user at the top of this page:
+
+* This tab, *Documentation*, containing the user documentation for the application.
+* The *Application* tab that contains charts, data tables, and filters to allow the user to filter and view the crime data.
+
+###Application Tab
+The application tab shows a bar chart showing the number of incidents for each Crime Offense Type that was reported in December, 2014 as well as data table listing the full data for all of the incidents.  The data table can be searched using the search box directly above the data table and can also be sorted by clicking on any of the column headings.
+
+#####The data table consists of the following data:
+
+* Date - the date of the incident.
+* Hour - the hour of the day of the incident.
+* Offense.Type - the type incident.
+* Beat - the city code for the territory where the incient occurred.
+* Premise - type of location where the incident occurred.
+* BlockRange - the block of the city address where the incident occurred.
+* StreetName - the street name where the incident occurred.
+* Type - the type of street.
+* Suffix - the suffix of the street name, like N for north, W for west, etc.
+* Offenses - the number of offenses reported for this incident.
+
+###How to filter
+#####On the left side of the *Application* tab there is a filter panel that allows the user to filter on the following items:
+
+* Reported incident date
+* Offense type
+* Chart type
+
+###Charts
+#####There are two charts that are available:
+
+* Offense type - this is a bar chart that shows the frequency of incidents for each offense type during the period selected in the "Reported incident date" filter.
+* Incidents by hour of day - this is a bar chart showing the frequency of incidents by the hour of day that they occurred during the period selected in the "Reported incident date" filter.
+
+**NOTE:** The *Offense type* chart is only available when the *Offense type* filter is set to *All*.
+
+
